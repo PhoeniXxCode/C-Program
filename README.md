@@ -1,1 +1,1 @@
-c progeamming
+c programming
