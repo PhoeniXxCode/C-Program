@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    float r;
-    const float pi=3.142;
-    printf("Circle calculation\n\n");
-    printf("Enter radius:");
-    scanf("%f", &r);
-    printf("\nResults..\n");
-    printf("\nRadius | a = %f",r);
-    printf("\nDiameter | a = %f",2*r);
-    printf("\nCircumeference | a = %f",2*pi*r);
-    printf("\nArea | a = %f",pi*r*r);
-    printf("\n\n");
+    int r,d;
+    float c,a;
+    printf("\n display diameter,circumference,radius,area");
+    printf("\n enter radius r:");
+    scanf("%d",&r);
+    d=2*r;
+    c=2*3.14*r;
+    a=3.14*r*r;
+    printf("\n radius = %d",r);
+    printf("\n diameter = %d",r);
+    printf("\n circumference = %f",r);
+    printf("\n area= %f",r);
+      printf("\n\n");
     return 0;
 }
