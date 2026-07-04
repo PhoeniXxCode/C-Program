@@ -2,17 +2,21 @@
 
 int main() {
     int a, b;
-    printf("ADD,SUB,MU,DIV\n\n");
-    printf("Enter a:");
+
+    printf("Add, Sub, Multiply, Divide and Modulo of 2 numbers\n");
+
+    printf("Enter first value (a): ");
     scanf("%d", &a);
-    printf("Enter b:");
+
+    printf("Enter second value (b): ");
     scanf("%d", &b);
-    printf("\nResults..\n");
-    printf("\nADD | a = %d", a+b);
-    printf("\nSUB | a = %d", a-b);
-    printf("\nMUL | a = %d", a*b);
-    printf("\nDIV | a = %d(Q)", a/b);
-    printf("\nDIV | a = %d(R)", a/b);
-    printf("\n\n");
+
+    printf("\nResults:\n");
+    printf("Add     = %d\n", a + b);
+    printf("Sub     = %d\n", a - b);
+    printf("Multiply= %d\n", a * b);
+    printf("Divide  = %d\n", a / b);
+    printf("Modulo  = %d\n", a % b);
+
     return 0;
 }
